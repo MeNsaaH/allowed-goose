@@ -26,7 +26,7 @@ spec:
         server: '{{ values.url }}'
       project: default
       source:
-        repoURL: https://gitlab.com/manasseh.mmadu/sterling-hamster.git
+        repoURL: https://github.com/MeNsaaH/allowed-goose
         targetRevision: HEAD
         path: 'apps/app-set-echo-server/{{ values.cluster }}'
         helm:
